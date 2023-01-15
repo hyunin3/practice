@@ -1,0 +1,9 @@
+w=int(input())
+h=int(input())
+
+def tri(w,h):
+    s=0.5*w*h
+    return(s)
+
+p=tri(w,h)
+print(p)
