@@ -1,0 +1,42 @@
+1. 1:1 가위바위보
+
+A, B=map(int,input().split())
+
+if (A-B==1) or (A-B==-2):
+    print('A')
+else:
+    print('B')
+
+
+2. 최대수 구하기
+
+for i in range(int(input())):
+    list=map(int,input().split())
+    print(f'#{i+1} {max(list)}')
+
+
+3. 평균값 구하기
+
+for i in range(int(input())):
+    numbers=list(map(int,input().split())) 
+    print(f'#{i+1} {round(sum(numbers)/10)}')
+
+
+4. 중간값 찾기
+
+T=int(input())
+numbers=list(map(int,input().split()))
+mid=int(T/2)    
+numbers.sort()
+print(numbers[mid])
+
+5. 자릿수 더하기
+
+num=int(input())
+def 자릿수합(num):
+    sum=0
+    for i in list(str(num)):
+        sum=sum+int(i)
+    return sum
+
+print(자릿수합(num))
