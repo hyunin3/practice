@@ -8,3 +8,5 @@ def dict_list_sum(lst):
     return sum
 
 print(dict_list_sum(list_dict))    
+
+

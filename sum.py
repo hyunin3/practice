@@ -1,0 +1,15 @@
+numbers=[1,2,3,4]      #sum()없이 주어진 리스트의 합을 구하기
+sum = 0 
+for i in numbers:
+    sum = sum+i
+print(sum)    
+
+num = int(input())      #입력받은 수까지의 합을 구하는 함수
+def sum_numbers(num):
+    sum = 0
+    for i in range(1, num+1):
+        sum = sum+i
+    return sum    
+
+print(sum_numbers(num))
+ 
