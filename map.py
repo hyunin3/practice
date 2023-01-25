@@ -3,10 +3,11 @@ def my_func(n):
 
 my_lst=[1,2,3,4,5]
 
-# for i in my_lst:
-#     lst=[my_func(i)]
-#     print(lst)    
-
-
 rlt=map(my_func,my_lst)
 print(list(rlt))
+
+
+# for i in my_lst:
+#     my_lst.append(i*10)
+
+# print(my_lst)
